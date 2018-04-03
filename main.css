@@ -429,7 +429,8 @@ main img {
 }
 
 .s-analytttics .inner-item {
-  background: #1f1f1f
+  /* background: #1f1f1f */
+  background: #f60c3e
 }
 
 .s-analytttics h1 {
@@ -626,7 +627,8 @@ main img {
 }
 
 .s-anyway-tab .inner-item {
-  background: #ffe324
+  /* background: #ffe324 */
+  background: #1f1f1f
 }
 
 .s-anyway-tab-img {
