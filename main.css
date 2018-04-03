@@ -384,7 +384,7 @@ h1 strong {
 }
 
 .item-btn:after {
-  content: "â€£";
+  content: "►";
   display: inline-block;
   margin: 0 0 0 .4em;
   transition: all .25s cubic-bezier(.4, 0, 0, 1)
@@ -633,7 +633,7 @@ main img {
 
 .s-anyway-tab-img {
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   width: 50%;
   right: 0;
   transform: translate(3rem, 0);
@@ -646,11 +646,11 @@ main img {
 }
 
 .s-anyway-tab h1 {
-  color: #333
+  color: rgb(212, 212, 212);
 }
 
 .s-anyway-tab .item-btn, .s-anyway-tab .item-desc {
-  color: #9d8b1e
+  color: #5d5d5d;
 }
 
 .s-clover .inner-item {
