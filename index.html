@@ -61,7 +61,9 @@
             <h1 class="item-text">Controller <strong>Customizer</strong></h1>
             <div class="item-desc">
               <div class="item-tags">Product Landing Page</div>
-              <div class="item-btns"><a class="item-btn" href="https://dribbble.com/shots/2129345-Playstickerz-concept" target="_blank">Built based on this concept design</a> <a class="item-btn" href="https://github.com/PolarisTLX/Controller-Customizer" target="_blank">Open sourced on GitHub</a>
+              <div class="item-btns">
+                  <a class="item-btn" href="https://dribbble.com/shots/2129345-Playstickerz-concept" target="_blank">Built based on this concept design</a>
+                  <a class="item-btn" href="https://github.com/PolarisTLX/Controller-Customizer" target="_blank">Open sourced on GitHub</a>
               </div>
             </div>
           </div>
@@ -70,7 +72,27 @@
           </a>
         </div>
       </article>
+
       <article class="item s-anyway-tab">
+        <div class="inner-item">
+          <div class="item-main autowidth">
+            <h1 class="item-text"><strong>Smokasaurus</strong><br> </h1>
+            <h2 class="item-desc"><strong>Automatic Charcoal Cooking</strong><br> </h2>
+            <div class="item-desc">
+              <div class="item-tags">Product Website</div>
+              <div class="item-btns">
+                  <a class="item-btn" href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">Launch Site</a>
+                  <a class="item-btn" href="https://github.com/PolarisTLX/Smokasaurus-Project" target="_blank">See the repository on GitHub</a>
+              </div>
+            </div>
+          </div>
+          <a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">
+            <img src="images/smoke-views-2.png" class="s-pre-img mobile-full-width">
+          </a>
+        </div>
+      </article>
+
+<!-- <article class="item s-anyway-tab">
         <div class="inner-item">
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>Smokasaurus</strong><br> </h1>
@@ -80,7 +102,8 @@
               <div class="item-btns"><a class="item-btn" href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">Launch site</a> <a class="item-btn" href="https://github.com/PolarisTLX/Smokasaurus-Project" target="_blank">See the repository on GitHub</a></div>
             </div>
           </div><a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank"><img id="smoke-views" src="images/smoke-views-2.png" class="ani-1 s-anyway-tab-img mobile-full-width"></a></div>
-      </article>
+      </article> -->
+
       <article class="item s-name">
         <div class="inner-item">
           <div class="item-main autowidth">
@@ -202,94 +225,107 @@
     </div>
   </main>
   <script type="text/javascript">
+
+// Adjust navbar on scroll:
+let navbar = document.querySelector(".header-nav");
+
+addEventListener("scroll", () => {
+  if (pageYOffset > 365) {
+    navbar.className = "autowidth header-nav scrolled";
+  } else {
+    navbar.className = "autowidth header-nav"
+  }
+});
+
+
     //~inView Animations
-    inView('.ani-2')
-      .on('enter',
-        el => {
-          el.className += " in-view";
-        })
-      .on('exit',
-        el => {
-          var reg = new RegExp('(\\s|^)' + "in-view" + '(\\s|$)');
-          el.className = el.className.replace(reg, '');
-        });
-
-    inView('.last-header')
-      .on('enter',
-        el => {
-          $('.header-nav').removeClass('scrolled');
-        })
-      .on('exit',
-        el => {
-          $('.header-nav').addClass('scrolled');
-        });
-
-    inView('.about-4')
-      .on('exit',
-        el => {
-          $('nav').removeClass('at-bottom');
-        })
-      .on('enter',
-        el => {
-          $('nav').addClass('at-bottom');
-        });
-
-    inView('.ani-1')
-      .on('enter',
-        el => {
-          el.className += " in-view";
-        });
-    inView('.ani-slow-1')
-      .on('enter',
-        el => {
-          el.className += " in-view";
-        });
-
-
-    //~Smooth Scroll
-
-    $('a[href*="#"]')
-
-      .not('[href="#"]')
-      .not('[href="#0"]')
-      .click(function(event) {
-
-        if (
-          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-          location.hostname == this.hostname
-        ) {
-
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-          if (target.length) {
-
-            event.preventDefault();
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000, function() {
-
-              var $target = $(target);
-              $target.focus();
-              if ($target.is(":focus")) {
-                return false;
-              } else {
-                $target.attr('tabindex', '-1');
-                $target.focus();
-              };
-            });
-          }
-        }
-      });
-
-    //	~Baidu Analytics
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?9595aadfac9865133fc81fd7d9c01c35";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })()
+    // inView('.ani-2')
+    //   .on('enter',
+    //     el => {
+    //       el.className += " in-view";
+    //     })
+    //   .on('exit',
+    //     el => {
+    //       var reg = new RegExp('(\\s|^)' + "in-view" + '(\\s|$)');
+    //       el.className = el.className.replace(reg, '');
+    //     });
+    //
+    // inView('.last-header')
+    //   .on('enter',
+    //     el => {
+    //       $('.header-nav').removeClass('scrolled');
+    //     })
+    //   .on('exit',
+    //     el => {
+    //       $('.header-nav').addClass('scrolled');
+    //     });
+    //
+    // inView('.about-4')
+    //   .on('exit',
+    //     el => {
+    //       $('nav').removeClass('at-bottom');
+    //     })
+    //   .on('enter',
+    //     el => {
+    //       $('nav').addClass('at-bottom');
+    //     });
+    //
+    // inView('.ani-1')
+    //   .on('enter',
+    //     el => {
+    //       el.className += " in-view";
+    //     });
+    // inView('.ani-slow-1')
+    //   .on('enter',
+    //     el => {
+    //       el.className += " in-view";
+    //     });
+    //
+    //
+    // //~Smooth Scroll
+    //
+    // $('a[href*="#"]')
+    //
+    //   .not('[href="#"]')
+    //   .not('[href="#0"]')
+    //   .click(function(event) {
+    //
+    //     if (
+    //       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+    //       location.hostname == this.hostname
+    //     ) {
+    //
+    //       var target = $(this.hash);
+    //       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    //
+    //       if (target.length) {
+    //
+    //         event.preventDefault();
+    //         $('html, body').animate({
+    //           scrollTop: target.offset().top
+    //         }, 1000, function() {
+    //
+    //           var $target = $(target);
+    //           $target.focus();
+    //           if ($target.is(":focus")) {
+    //             return false;
+    //           } else {
+    //             $target.attr('tabindex', '-1');
+    //             $target.focus();
+    //           };
+    //         });
+    //       }
+    //     }
+    //   });
+    //
+    // //	~Baidu Analytics
+    // var _hmt = _hmt || [];
+    // (function() {
+    //   var hm = document.createElement("script");
+    //   hm.src = "https://hm.baidu.com/hm.js?9595aadfac9865133fc81fd7d9c01c35";
+    //   var s = document.getElementsByTagName("script")[0];
+    //   s.parentNode.insertBefore(hm, s);
+    // })()
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-568739-7"></script>
   <script>

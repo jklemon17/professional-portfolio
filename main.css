@@ -23,7 +23,7 @@ body {
   margin: 0 auto
 }
 
-@font-face {
+/* @font-face {
   font-family: Apercu;
   src: url(apercu/apercu-bold.eot);
   src: url(apercu/apercu-bold.eot?#iefix) format('embedded-opentype'), url(apercu/apercu-bold.woff) format('woff'), url(apercu/apercu-bold.woff2) format('woff2'), url(apercu/apercu-bold.ttf) format('truetype');
@@ -64,7 +64,7 @@ body {
   font-weight: 100;
   font-style: normal;
   font-display: block
-}
+} */
 
 a {
   color: #666;
@@ -550,7 +550,7 @@ main img {
 }
 
 .s-aw2016 .inner-item {
-  background: #f7f7f7 url(images/aw2016-tile.gif);
+  background: #f7f7f7 /*url(images/aw2016-tile.gif)*/;
   border-bottom: 8px solid #4a4a4a
 }
 
@@ -618,7 +618,7 @@ main img {
 }
 
 .s-post .inner-item {
-  background: #2f374a url(images/post.jpg) no-repeat;
+  background: #2f374a /*url(images/post.jpg)*/ no-repeat;
   background-size: cover
 }
 
@@ -700,7 +700,7 @@ main img {
 }
 
 .s-iconmoon .inner-item {
-  background: #2f374a url(images/iconmoon-bg-2.jpg) no-repeat;
+  background: #2f374a /*url(images/iconmoon-bg-2.jpg)*/ no-repeat;
   background-size: cover
 }
 
