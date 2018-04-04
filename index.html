@@ -13,21 +13,16 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
-
+  <!-- End Font Awesome  -->
   <link rel="stylesheet" href="main.css">
-  <!-- <link rel="shortcut icon" href="http://anw.red/iconmoon-2017/images/favicon.png"> -->
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/in-view.min.js"></script>
-  <!-- <meta property="og:url" content="http://IconMoon.com"> -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Kyle Lemon's Portfolio">
   <meta property="og:description" content="Web porfolio of Kyle Lemon, a full stack web developer.">
-  <!-- <meta property="og:image" content="https://anw.red/iconmoon-2017/iconmoon-2017.png"> -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:description" content="Web porfolio of Kyle Lemon, a full stack web developer.">
   <meta name="twitter:title" content="Kyle Lemon's Portfolio">
-  <!-- <meta name="twitter:site" content="@jjying"> -->
-  <!-- <meta name="twitter:image" content="https://anw.red/iconmoon-2017/iconmoon-2017.png"> -->
 </head>
 
 <body>
@@ -35,9 +30,6 @@
     <section class="autowidth tagline">Hey there, I'm Kyle Lemon</section>
     <section class="autowidth desc">based in Indianapolis, IN</section>
     <section class="autowidth tagline">A full-stack web developer</section>
-    <!-- <section class="autowidth desc">Working at Baidu and previously at HP.</section>
-    <section class="autowidth tagline">And know a little about coding.</section>
-    <section class="autowidth desc last-header">But just too little to be called full-stack. 😝</section> -->
   </header>
   <nav>
     <div class="autowidth header-nav">
@@ -48,13 +40,12 @@
         <li><a href="#works">Works</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <!-- <li class="nav-blog"><a href="http://IconMoon.com/blog2/" target="_blank">Blog</a></li> -->
-        <!-- <li><a href="https://Anyway.FM/?s=iconmoon" target="_blank">Podcast</a></li> -->
       </ul>
     </div>
   </nav>
   <main>
     <div class="inner inner-content">
+      <!-- BEGIN PROJECTS SECTION (each article is a project) -->
       <article class="item s-pre" id="works">
         <div class="inner-item">
           <div class="item-main autowidth">
@@ -67,12 +58,12 @@
               </div>
             </div>
           </div>
+          <!-- THIS IS THE IMAGE ON THE RIGHT SIDE OF THE CARD -->
           <a href="https://polaristlx.github.io/Controller-Customizer/" target="_blank">
             <img src="images/cc-views-transparent.png" class="s-pre-img mobile-full-width">
           </a>
         </div>
       </article>
-
       <article class="item s-anyway-tab">
         <div class="inner-item">
           <div class="item-main autowidth">
@@ -91,28 +82,19 @@
           </a>
         </div>
       </article>
-
-<!-- <article class="item s-anyway-tab">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text"><strong>Smokasaurus</strong><br> </h1>
-            <h2 class="item-desc"><strong>Automatic Charcoal Cooking</strong><br> </h2>
-            <div class="item-desc">
-              <div class="item-tags">Product Website</div>
-              <div class="item-btns"><a class="item-btn" href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">Launch site</a> <a class="item-btn" href="https://github.com/PolarisTLX/Smokasaurus-Project" target="_blank">See the repository on GitHub</a></div>
-            </div>
-          </div><a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank"><img id="smoke-views" src="images/smoke-views-2.png" class="ani-1 s-anyway-tab-img mobile-full-width"></a></div>
-      </article> -->
-
       <article class="item s-name">
         <div class="inner-item">
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>Name Generator</strong><br>for Sketch</h1>
             <div class="item-desc">
               <div class="item-tags">Plug-in Development</div>
-              <div class="item-btns"><a class="item-btn" href="https://github.com/JJYing/Fake-Chinese-Name-for-Sketch" target="_blank">Open sourced on GitHub</a></div>
+              <div class="item-btns">
+                <a class="item-btn" href="https://github.com/JJYing/Fake-Chinese-Name-for-Sketch" target="_blank">Open sourced on GitHub</a>
+              </div>
             </div>
-          </div><img src="http://anw.red/iconmoon-2017/images/name-demo.gif" class="s-name-demo mobile-full-width"></div>
+          </div>
+          <img src="http://anw.red/iconmoon-2017/images/name-demo.gif" class="s-name-demo mobile-full-width">
+        </div>
       </article>
       <article class="item s-analytttics">
         <div class="inner-item">
@@ -120,9 +102,14 @@
             <h1 class="item-text"><strong>Analytttics</strong><br>Dribbble Activities Ratings</h1>
             <div class="item-desc">
               <div class="item-tags">Web Design / Development</div>
-              <div class="item-btns"><a class="item-btn" href="http://anyway.design/analytttics/" target="_blank">Launch site</a> <a class="item-btn" href="https://github.com/JJYing/Analytttics" target="_blank">Open sourced on GitHub</a></div>
+              <div class="item-btns">
+                <a class="item-btn" href="http://anyway.design/analytttics/" target="_blank">Launch site</a>
+                <a class="item-btn" href="https://github.com/JJYing/Analytttics" target="_blank">Open sourced on GitHub</a>
+              </div>
             </div>
-          </div><img src="http://anw.red/iconmoon-2017/images/analytttics.png" class="s-analytttics-img mobile-full-width"></div>
+          </div>
+          <img src="http://anw.red/iconmoon-2017/images/analytttics.png" class="s-analytttics-img mobile-full-width">
+        </div>
       </article>
       <article class="item s-aw2016 last-item">
         <div class="inner-item">
@@ -131,9 +118,15 @@
             <h1 class="item-text"><strong>Anyway.FM</strong><br>2016 Year-End Report</h1>
             <div class="item-desc">
               <div class="item-tags">Web Design / Development</div>
-              <div class="item-btns"><a class="item-btn" href="https://Anyway.FM/2016/?s=iconmoon" target="_blank">Launch site</a></div>
+              <div class="item-btns">
+                <a class="item-btn" href="https://Anyway.FM/2016/?s=iconmoon" target="_blank">Launch site</a>
+              </div>
             </div>
-          </div><img src="http://anw.red/iconmoon-2017/images/aw2016-bg.gif" class="s-aw2016-bg"> <img src="http://anw.red/iconmoon-2017/images/aw2016-leon.gif" class="s-aw2016-leon"> <img src="http://anw.red/iconmoon-2017/images/aw2016-logo.gif" class="s-aw2016-logo mobile-full-width"></div>
+          </div>
+          <img src="http://anw.red/iconmoon-2017/images/aw2016-bg.gif" class="s-aw2016-bg">
+          <img src="http://anw.red/iconmoon-2017/images/aw2016-leon.gif" class="s-aw2016-leon">
+          <img src="http://anw.red/iconmoon-2017/images/aw2016-logo.gif" class="s-aw2016-logo mobile-full-width">
+        </div>
       </article>
       <article class="item s-clover">
         <div class="inner-item">
@@ -142,8 +135,11 @@
             <div class="item-desc">
               <div class="item-btns">Coming soon...</div>
             </div>
-          </div><img src="http://anw.red/iconmoon-2017/images/clover-sans.jpg" class="item-bg clover-img-0 mobile-full-width"> <img src="http://anw.red/iconmoon-2017/images/clover-sans-2.png" class="item-bg clover-img-1 mobile-full-width"> <img src="http://anw.red/iconmoon-2017/images/clover-sans-3.png"
-            class="item-bg clover-img-2 mobile-full-width"></div>
+          </div>
+          <img src="http://anw.red/iconmoon-2017/images/clover-sans.jpg" class="item-bg clover-img-0 mobile-full-width">
+          <img src="http://anw.red/iconmoon-2017/images/clover-sans-2.png" class="item-bg clover-img-1 mobile-full-width">
+          <img src="http://anw.red/iconmoon-2017/images/clover-sans-3.png" class="item-bg clover-img-2 mobile-full-width">
+        </div>
       </article>
       <header>
         <section class="autowidth tagline">I Also Love Sharing,</section>
@@ -154,13 +150,19 @@
         <section class="autowidth desc">with my best friend Leon Gao.</section>
       </header>
       <article class="item s-anyway">
-        <div class="inner-item"><img src="http://anw.red/iconmoon-2017/images/anyway-1.png" class="s-anyway-img s-anyway-cube-1"> <img src="http://anw.red/iconmoon-2017/images/anyway-2.png" class="s-anyway-img s-anyway-cube-2"> <img src="http://anw.red/iconmoon-2017/images/anyway-3.png"
-            class="s-anyway-img s-anyway-cube-3">
+        <div class="inner-item">
+          <img src="http://anw.red/iconmoon-2017/images/anyway-1.png" class="s-anyway-img s-anyway-cube-1"> <img src="http://anw.red/iconmoon-2017/images/anyway-2.png" class="s-anyway-img s-anyway-cube-2"> <img src="http://anw.red/iconmoon-2017/images/anyway-3.png" class="s-anyway-img s-anyway-cube-3">
           <div class="item-main autowidth">
             <h1 class="item-text">Award-Winning Podcast<br><strong>Anyway.FM</strong></h1>
             <div class="item-desc">
-              <div class="item-tags">Leon Gao and I created Anyway.FM design podcast in late 2015, we were so lucky to receive 'Best of 2015' award from Apple iTunes after just 5 episodes.</div>
-              <div class="item-btns"><a class="item-btn" href="https://Anyway.FM/?s=iconmoon" target="_blank">Launch site</a> <a class="item-btn" href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200" target="_blank">Subscribe on iTunes Podcasts</a></div>
+              <div class="item-tags">
+                Leon Gao and I created Anyway.FM design podcast in late 2015, we were so lucky to receive 'Best of 2015' award from Apple iTunes after just 5 episodes.
+              </div>
+              <div class="item-btns">
+                <a class="item-btn" href="https://Anyway.FM/?s=iconmoon" target="_blank">Launch site</a>
+                <a class="item-btn"
+                   href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200" target="_blank">Subscribe on iTunes Podcasts</a>
+              </div>
             </div>
           </div>
         </div>
@@ -170,7 +172,9 @@
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>IconMoon 图月志</strong><br>Design Blog</h1>
             <div class="item-desc">
-              <div class="item-btns"><a class="item-btn" href="http://TuYueZhi.com" target="_blank">Launch site</a></div>
+              <div class="item-btns">
+                <a class="item-btn" href="http://TuYueZhi.com" target="_blank">Launch site</a>
+              </div>
             </div>
           </div>
         </div>
@@ -180,7 +184,9 @@
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>Anyway.Post</strong><br>E-mail Newsletter</h1>
             <div class="item-desc">
-              <div class="item-btns"><a class="item-btn" href="https://Anyway.FM/post/?s=iconmoon" target="_blank">Launch site</a></div>
+              <div class="item-btns">
+                <a class="item-btn" href="https://Anyway.FM/post/?s=iconmoon" target="_blank">Launch site</a>
+              </div>
             </div>
           </div>
         </div>
@@ -190,9 +196,14 @@
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>About</strong> Me</h1>
             <div class="item-desc">
-              <div>Once I thought I could be a life-time pixel-pusher, but then I realize I'm more interested in the mixture of design and codes(maybe just tags, since I only knew HTML/CSS and JS). 😅</div>
-              <div>I live in Shanghai, China and currently work at Baidu as a Senior GUI designer. When I'm not working or feeding my little daughter, I love taking <a href="https://www.instagram.com/jjying/" target="_blank">stupid photos</a> and watching
-                Man Utd games.</div>
+              <div>
+                Once I thought I could be a life-time pixel-pusher, but then I realize I'm more interested in the mixture of design and codes(maybe just tags, since I only knew HTML/CSS and JS). 😅
+              </div>
+              <div>
+                I live in Shanghai, China and currently work at Baidu as a Senior GUI designer. When I'm not working or feeding my little daughter, I love taking
+                <a href="https://www.instagram.com/jjying/" target="_blank">stupid photos</a>
+                and watching Man Utd games.
+              </div>
             </div>
           </div>
         </div>
@@ -202,7 +213,14 @@
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>Awards</strong> & <strong>Press</strong></h1>
             <div class="item-desc">
-              <div class="press-list"><a href="https://zhuanlan.zhihu.com/p/29767611">UX Coffee</a> · Interview · Sep 2017<br><a href="http://iconmoon.com/blog2/anyway-fm-2015-year-selected/">Apple Best of 2015</a> · iTunes Podcasts · Dec 2015<br><a href="https://zhuanlan.zhihu.com/p/20026602">36Kr Next</a>                · Interview · May 2015</div>
+              <div class="press-list">
+                <a href="https://zhuanlan.zhihu.com/p/29767611">UX Coffee</a>
+                 · Interview · Sep 2017<br>
+                <a href="http://iconmoon.com/blog2/anyway-fm-2015-year-selected/">Apple Best of 2015</a>
+                 · iTunes Podcasts · Dec 2015<br>
+                <a href="https://zhuanlan.zhihu.com/p/20026602">36Kr Next</a>
+                                · Interview · May 2015
+              </div>
             </div>
           </div>
         </div>
@@ -212,7 +230,6 @@
           <div class="item-main autowidth">
             <h1 class="item-text"><strong>Contact</strong> Me</h1>
             <div class="item-desc"><a href="mailto:james.kyle.lemon@gmail.com">james.kyle.lemon@gmail.com</a> · E-mail<br><br><br>
-              <!-- <div class="social-list"><a target="_blank" href="https://twitter.com/JJYing">Twitter</a> / <a target="_blank" href="http://dribbble.com/JJYing">Dribbble</a> / <a target="_blank" href="https://www.behance.net/jjying">Behance</a> / <a target="_blank" href="http://instagram.com/jjying">Instagram</a>                / <a target="_blank" href="http://www.linkedin.com/in/jjying">LinkedIn</a> / <a target="_blank" href="http://weibo.com/yingjunjiu/">Weibo</a> / <a target="_blank" href="http://www.zhihu.com/people/jjying">Zhihu</a> / <a target="_blank" href="https://unsplash.com/@jjying">Unsplash</a></div> -->
               <div class="social-list"><a target="_blank" href="https://www.linkedin.com/in/kyle-lemon-10487555/"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
               </div>
             </div>
@@ -230,7 +247,16 @@
 let navbar = document.querySelector(".header-nav");
 
 addEventListener("scroll", () => {
-  if (pageYOffset > 365) {
+  // Makes the navbar transition mobile-responsive
+  let offsetCutoff;
+  if (window.innerWidth < 425) {
+    offsetCutoff = 185;
+  } else {
+    offsetCutoff = 365;
+  }
+
+  // Adds "scrolled" class to navbar at scroll cutoff point
+  if (pageYOffset > offsetCutoff) {
     navbar.className = "autowidth header-nav scrolled";
   } else {
     navbar.className = "autowidth header-nav"
@@ -250,16 +276,7 @@ addEventListener("scroll", () => {
     //       el.className = el.className.replace(reg, '');
     //     });
     //
-    // inView('.last-header')
-    //   .on('enter',
-    //     el => {
-    //       $('.header-nav').removeClass('scrolled');
-    //     })
-    //   .on('exit',
-    //     el => {
-    //       $('.header-nav').addClass('scrolled');
-    //     });
-    //
+    // REMOVES HEADER/NAVBAR WHEN ABOUT SECTION REACHED
     // inView('.about-4')
     //   .on('exit',
     //     el => {
@@ -270,6 +287,8 @@ addEventListener("scroll", () => {
     //       $('nav').addClass('at-bottom');
     //     });
     //
+
+    // SLIDES IN PROJECT IMAGES FROM RIGHT
     // inView('.ani-1')
     //   .on('enter',
     //     el => {
