@@ -1,3 +1,7 @@
+#iframe {
+  margin-top: -200px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -304,6 +308,9 @@ main {
   pointer-events: none
 }
 
+/* to make things clickable that are covered by divs:
+pointer-events: all on desired elements
+and pointer-events: none on the covering divs */
 .inner-item a {
   pointer-events: all
 }
@@ -454,7 +461,7 @@ main img {
 }
 
 .s-name .inner-item {
-  background: #987ff1
+  background: rgb(16,42,84);
 }
 
 .s-name h1 {
