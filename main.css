@@ -1,5 +1,8 @@
 #iframe {
-  margin-top: -200px;
+  margin-top: -400px;
+  margin-left: -100px;
+  height: 600px;
+  width: 1800px;
 }
 
 * {
@@ -136,6 +139,10 @@ li {
   font-weight: 700;
   font-variant-alternates: stylistic(1)
 }
+/* .item-text {
+  margin: 0;
+  padding: 0;
+} */
 
 nav {
   z-index: 9999;
@@ -355,6 +362,11 @@ h1 strong {
   font-style: normal
 }
 
+/* to fix anchor tag change color of text */
+h1 a {
+  color: inherit;
+}
+
 /* h1:before {
   content: "ï¼Š";
   position: absolute;
@@ -366,7 +378,7 @@ h1 strong {
 
 .item-desc {
   color: #fff;
-  font-size: .8rem;
+  font-size: 1.5rem;
   text-align: left;
   padding: 0;
   width: 75%;
@@ -385,7 +397,7 @@ h1 strong {
   border-radius: 2em;
   padding: .2em .7em .1em .5em;
   background: 0 0;
-  font-size: .8rem;
+  font-size: 1.2rem;
   cursor: pointer;
   font-weight: 400;
   text-decoration: none;
@@ -639,30 +651,33 @@ main img {
   color: #333
 }
 
-.s-anyway-tab .inner-item {
+.smoke .inner-item {
   /* background: #ffe324 */
   background: #1f1f1f
 }
 
-.s-anyway-tab-img {
+/* .smoke-img {
   position: absolute;
   bottom: 5%;
   width: 50%;
   right: 0;
   transform: translate(3rem, 0);
   opacity: 0
-}
+} */
 
-.s-anyway-tab-img.in-view {
+/* .smoke-img.in-view {
   transform: translate(0, 0);
   opacity: 1
-}
+} */
 
-.s-anyway-tab h1 {
+.smoke h1 {
   color: rgb(212, 212, 212);
 }
+.smoke h2 {
+  font-size: 1.5rem;
+}
 
-.s-anyway-tab .item-btn, .s-anyway-tab .item-desc {
+.smoke .item-btn, .smoke .item-desc {
   color: #5d5d5d;
 }
 
@@ -831,8 +846,8 @@ footer {
     max-width: 70%
   }
   .autowidth {
-    max-width: 80%;
-    width: 80rem
+    max-width: 30%;
+    width: 30rem
   }
 }
 
@@ -897,7 +912,7 @@ footer {
     width: auto;
     max-width: 90%
   }
-  .s-anyway-tab-img, .s-clover .item-bg {
+  .smoke-img, .s-clover .item-bg {
     max-width: 100%;
     position: static;
     height: auto
