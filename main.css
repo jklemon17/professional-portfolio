@@ -367,18 +367,18 @@ h1 a {
   color: inherit;
 }
 
-/* h1:before {
-  content: "ï¼Š";
+h1:before {
+  content: "*";
   position: absolute;
-  left: -1em;
-  top: .06em;
-  font-size: .9em;
+  left: -0.5em;
+  /* top: .06em; */
+  font-size: 1.5em;
   font-weight: 700
-} */
+}
 
 .item-desc {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: .8rem;
   text-align: left;
   padding: 0;
   width: 75%;
@@ -397,7 +397,7 @@ h1 a {
   border-radius: 2em;
   padding: .2em .7em .1em .5em;
   background: 0 0;
-  font-size: 1.2rem;
+  font-size: .8rem;
   cursor: pointer;
   font-weight: 400;
   text-decoration: none;
@@ -846,8 +846,8 @@ footer {
     max-width: 70%
   }
   .autowidth {
-    max-width: 30%;
-    width: 30rem
+    max-width: 80%;
+    width: 80rem
   }
 }
 

@@ -23,7 +23,7 @@ body {
   margin: 0 auto
 }
 
-/* @font-face {
+@font-face {
   font-family: Apercu;
   src: url(apercu/apercu-bold.eot);
   src: url(apercu/apercu-bold.eot?#iefix) format('embedded-opentype'), url(apercu/apercu-bold.woff) format('woff'), url(apercu/apercu-bold.woff2) format('woff2'), url(apercu/apercu-bold.ttf) format('truetype');
@@ -64,7 +64,7 @@ body {
   font-weight: 100;
   font-style: normal;
   font-display: block
-} */
+}
 
 a {
   color: #666;
@@ -344,14 +344,14 @@ h1 strong {
   font-style: normal
 }
 
-/* h1:before {
+h1:before {
   content: "ï¼Š";
   position: absolute;
   left: -1em;
   top: .06em;
   font-size: .9em;
   font-weight: 700
-} */
+}
 
 .item-desc {
   color: #fff;
@@ -384,7 +384,7 @@ h1 strong {
 }
 
 .item-btn:after {
-  content: "►";
+  content: "â€£";
   display: inline-block;
   margin: 0 0 0 .4em;
   transition: all .25s cubic-bezier(.4, 0, 0, 1)
@@ -429,8 +429,7 @@ main img {
 }
 
 .s-analytttics .inner-item {
-  /* background: #1f1f1f */
-  background: #f60c3e
+  background: #1f1f1f
 }
 
 .s-analytttics h1 {
@@ -550,7 +549,7 @@ main img {
 }
 
 .s-aw2016 .inner-item {
-  background: #f7f7f7 /*url(images/aw2016-tile.gif)*/;
+  background: #f7f7f7 url(images/aw2016-tile.gif);
   border-bottom: 8px solid #4a4a4a
 }
 
@@ -618,7 +617,7 @@ main img {
 }
 
 .s-post .inner-item {
-  background: #2f374a /*url(images/post.jpg)*/ no-repeat;
+  background: #2f374a url(images/post.jpg) no-repeat;
   background-size: cover
 }
 
@@ -627,13 +626,12 @@ main img {
 }
 
 .s-anyway-tab .inner-item {
-  /* background: #ffe324 */
-  background: #1f1f1f
+  background: #ffe324
 }
 
 .s-anyway-tab-img {
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   width: 50%;
   right: 0;
   transform: translate(3rem, 0);
@@ -646,11 +644,11 @@ main img {
 }
 
 .s-anyway-tab h1 {
-  color: rgb(212, 212, 212);
+  color: #333
 }
 
 .s-anyway-tab .item-btn, .s-anyway-tab .item-desc {
-  color: #5d5d5d;
+  color: #9d8b1e
 }
 
 .s-clover .inner-item {
@@ -700,7 +698,7 @@ main img {
 }
 
 .s-iconmoon .inner-item {
-  background: #2f374a /*url(images/iconmoon-bg-2.jpg)*/ no-repeat;
+  background: #2f374a url(images/iconmoon-bg-2.jpg) no-repeat;
   background-size: cover
 }
 
