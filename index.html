@@ -27,11 +27,12 @@
 </head>
 
 <body>
+  <h2 style="display:none">Kyle Lemon's Portfolio | Full-Stack Developer</h2>
   <nav>
     <div class="autowidth header-nav">
       <!-- NOTE: change this logo -->
       <div class="logo"><img src="images/bow-icon.png"></div>
-      <div class="header-name"><strong>Kyle Lemon</strong><span>, full-stack web developer</span></div>
+      <h2 class="header-name"><strong>Kyle Lemon</strong><span>, full-stack web developer</span></h2>
       <ul>
         <li><a href="#works">Works</a></li>
         <li><a href="#about">About</a></li>
@@ -40,177 +41,181 @@
     </div>
   </nav>
   <header>
-    <section class="autowidth tagline">Hey there, I'm Kyle Lemon</section>
-    <section class="autowidth desc">based in Indianapolis, IN</section>
-    <section class="autowidth tagline">A full-stack web developer</section>
-    <section class="autowidth desc">currently in Microverse's Fast Track program</section>
-    <section class="autowidth tagline">With a passion for DRY, reusable code</section>
-    <section class="autowidth desc">and a healthy love-hate relationship with CSS</section>
+    <div class="autowidth tagline">Hey there, I'm Kyle Lemon</div>
+    <div class="autowidth desc">based in Indianapolis, IN</div>
+    <div class="autowidth tagline">A full-stack web developer</div>
+    <div class="autowidth desc">currently in Microverse's Fast Track program</div>
+    <div class="autowidth tagline">With a passion for DRY, reusable code</div>
+    <div class="autowidth desc">and a healthy love-hate relationship with CSS</div>
   </header>
   <main>
     <div class="inner inner-content">
       <!-- BEGIN PROJECTS SECTION (each article is a project) -->
-      <article class="item s-pre" id="works">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text">Controller <strong>Customizer</strong></h1>
-            <div class="item-desc">
-              <div class="item-tags">Product Landing Page</div>
-              <div class="item-btns">
-                  <a class="item-btn" href="https://dribbble.com/shots/2129345-Playstickerz-concept" target="_blank">Based on this concept design</a>
-                  <a class="item-btn" href="https://github.com/PolarisTLX/Controller-Customizer" target="_blank">Open sourced on GitHub</a>
+      <section>
+        <h2 style="visibility:hidden" id="works">My Works</h2>
+        <article class="item s-pre">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text">Controller <strong>Customizer</strong></h1>
+              <div class="item-desc">
+                <div class="item-tags">Product Landing Page</div>
+                <div class="item-btns">
+                    <a class="item-btn" href="https://dribbble.com/shots/2129345-Playstickerz-concept" target="_blank">Based on this concept design</a>
+                    <a class="item-btn" href="https://github.com/PolarisTLX/Controller-Customizer" target="_blank">Open sourced on GitHub</a>
+                </div>
+              </div>
+            </div>
+            <!-- THIS IS THE IMAGE ON THE RIGHT SIDE OF THE CARD -->
+            <a href="https://polaristlx.github.io/Controller-Customizer/" target="_blank">
+              <img src="images/cc-views-transparent.png" class="s-pre-img mobile-full-width">
+            </a>
+          </div>
+        </article>
+        <article class="item smoke">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text">
+                <a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">
+                  <strong>Smokasaurus</strong><br>
+                </a>
+              </h1>
+              <!-- <h2 class="item-desc"><strong>Automatic Charcoal Cooking</strong><br> </h2> -->
+              <div class="item-desc">
+                <div class="item-tags">Product Website</div>
+                <div class="item-btns">
+                    <a class="item-btn" href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">Launch Site</a>
+                    <a class="item-btn" href="https://github.com/PolarisTLX/Smokasaurus-Project" target="_blank">See the repository on GitHub</a>
+                </div>
+              </div>
+            </div>
+            <a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">
+              <img src="images/smoke-views-2.png" class="s-pre-img mobile-full-width">
+            </a>
+          </div>
+        </article>
+        <article class="item s-name">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text">
+                <a href="https://polaristlx.github.io/Snowy-Background-Project/" target="_blank">
+                  <strong>Snow Generator</strong>
+                </a>
+              </h1>
+              <div class="item-desc">
+                <div class="item-tags">Made entirely in vanilla JavaScript</div>
+                <div class="item-btns">
+                  <a class="item-btn" href="https://github.com/PolarisTLX/Snowy-Background-Project/" target="_blank">See the repository on GitHub</a>
+                </div>
+              </div>
+            </div>
+            <iframe id="iframe" src="https://polaristlx.github.io/Snowy-Background-Project/" frameborder="0"></iframe>
+          </div>
+        </article>
+        <article class="item s-analytttics">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text"><strong>Area 2071</strong><br>Landing Page</h1>
+              <div class="item-desc">
+                <div class="item-tags">Web Development</div>
+                <div class="item-btns">
+                  <a class="item-btn" href="https://dribbble.com/shots/3979326-Area-2071-Landing-Page" target="_blank">Based on this concept design</a>
+                  <a class="item-btn" href="https://github.com/PolarisTLX/Area-2071-Challenge" target="_blank">Open sourced on GitHub</a>
+                </div>
+              </div>
+            </div>
+            <a href="https://polaristlx.github.io/Area-2071-Challenge/" target="_blank">
+              <img src="images/Area-2071.png" class="s-analytttics-img mobile-full-width">
+            </a>
+          </div>
+        </article>
+        <!-- <article class="item s-aw2016 last-item">
+          <div class="inner-item">
+            <div class="item-bg"></div>
+            <div class="item-main autowidth">
+              <h1 class="item-text"><strong>Anyway.FM</strong><br>2016 Year-End Report</h1>
+              <div class="item-desc">
+                <div class="item-tags">Web Design / Development</div>
+                <div class="item-btns">
+                  <a class="item-btn" href="https://Anyway.FM/2016/?s=iconmoon" target="_blank">Launch site</a>
+                </div>
+              </div>
+            </div>
+            <img src="http://anw.red/iconmoon-2017/images/aw2016-bg.gif" class="s-aw2016-bg">
+            <img src="http://anw.red/iconmoon-2017/images/aw2016-leon.gif" class="s-aw2016-leon">
+            <img src="http://anw.red/iconmoon-2017/images/aw2016-logo.gif" class="s-aw2016-logo mobile-full-width">
+          </div>
+        </article> -->
+        <!-- <article class="item s-clover">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text"><strong>Clover Sans</strong><br>Typeface Design</h1>
+              <div class="item-desc">
+                <div class="item-btns">Coming soon...</div>
+              </div>
+            </div>
+            <img src="http://anw.red/iconmoon-2017/images/clover-sans.jpg" class="item-bg clover-img-0 mobile-full-width">
+            <img src="http://anw.red/iconmoon-2017/images/clover-sans-2.png" class="item-bg clover-img-1 mobile-full-width">
+            <img src="http://anw.red/iconmoon-2017/images/clover-sans-3.png" class="item-bg clover-img-2 mobile-full-width">
+          </div>
+        </article> -->
+        <header>
+          <div class="autowidth tagline">I Also Enjoy Writing,</div>
+          <div class="autowidth desc">and teaching, and video games.</div>
+          <div class="autowidth tagline">I'm passionate about clean tech,</div>
+          <div class="autowidth desc">especially electric, self-driving vehicles.</div>
+          <!-- <section class="autowidth tagline">And Recently I Hosted a Podcast,</section>
+          <section class="autowidth desc">with my best friend Leon Gao.</section> -->
+        </header>
+        <!-- <article class="item s-anyway">
+          <div class="inner-item">
+            <img src="http://anw.red/iconmoon-2017/images/anyway-1.png" class="s-anyway-img s-anyway-cube-1"> <img src="http://anw.red/iconmoon-2017/images/anyway-2.png" class="s-anyway-img s-anyway-cube-2"> <img src="http://anw.red/iconmoon-2017/images/anyway-3.png" class="s-anyway-img s-anyway-cube-3">
+            <div class="item-main autowidth">
+              <h1 class="item-text">Award-Winning Podcast<br><strong>Anyway.FM</strong></h1>
+              <div class="item-desc">
+                <div class="item-tags">
+                  Leon Gao and I created Anyway.FM design podcast in late 2015, we were so lucky to receive 'Best of 2015' award from Apple iTunes after just 5 episodes.
+                </div>
+                <div class="item-btns">
+                  <a class="item-btn" href="https://Anyway.FM/?s=iconmoon" target="_blank">Launch site</a>
+                  <a class="item-btn"
+                     href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200" target="_blank">Subscribe on iTunes Podcasts</a>
+                </div>
               </div>
             </div>
           </div>
-          <!-- THIS IS THE IMAGE ON THE RIGHT SIDE OF THE CARD -->
-          <a href="https://polaristlx.github.io/Controller-Customizer/" target="_blank">
-            <img src="images/cc-views-transparent.png" class="s-pre-img mobile-full-width">
-          </a>
-        </div>
-      </article>
-      <article class="item smoke">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text">
-              <a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">
-                <strong>Smokasaurus</strong><br>
-              </a>
-            </h1>
-            <!-- <h2 class="item-desc"><strong>Automatic Charcoal Cooking</strong><br> </h2> -->
-            <div class="item-desc">
-              <div class="item-tags">Product Website</div>
-              <div class="item-btns">
-                  <a class="item-btn" href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">Launch Site</a>
-                  <a class="item-btn" href="https://github.com/PolarisTLX/Smokasaurus-Project" target="_blank">See the repository on GitHub</a>
+        </article> -->
+        <article class="item half half-l s-iconmoon">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text">I write on <strong>Medium</strong></h1>
+              <div class="item-desc">
+                <div class="item-btns">
+                  <a class="item-btn" href="https://medium.com/@james.kyle.lemon/latest" target="_blank">Read my latest posts</a>
+                </div>
               </div>
             </div>
           </div>
-          <a href="https://polaristlx.github.io/Smokasaurus-Project/" target="_blank">
-            <img src="images/smoke-views-2.png" class="s-pre-img mobile-full-width">
-          </a>
-        </div>
-      </article>
-      <article class="item s-name">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text">
-              <a href="https://polaristlx.github.io/Snowy-Background-Project/" target="_blank">
-                <strong>Snow Generator</strong>
-              </a>
-            </h1>
-            <div class="item-desc">
-              <div class="item-tags">Made entirely in vanilla JavaScript</div>
-              <div class="item-btns">
-                <a class="item-btn" href="https://github.com/PolarisTLX/Snowy-Background-Project/" target="_blank">See the repository on GitHub</a>
+        </article>
+        <article class="item half half-r s-post last-item">
+          <div class="inner-item">
+            <div class="item-main autowidth">
+              <h1 class="item-text"><strong>Open Source</strong> Contributions</h1>
+              <div class="item-desc">
+                <div class="item-btns">
+                  <a class="item-btn" href="https://github.com/jklemon17/open-source-contributions/blob/master/pull-requests.md" target="_blank">View on GitHub</a>
+                </div>
               </div>
             </div>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <img src="images/odin-logo.svg" class="odin-img">
+            </a>
+            <a href="https://www.freecodecamp.org/" target="_blank">
+              <img src="images/freecodecamp_logo.svg" class="fcc-img">
+            </a>
           </div>
-          <iframe id="iframe" src="https://polaristlx.github.io/Snowy-Background-Project/" frameborder="0"></iframe>
-        </div>
-      </article>
-      <article class="item s-analytttics">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text"><strong>Area 2071</strong><br>Landing Page</h1>
-            <div class="item-desc">
-              <div class="item-tags">Web Development</div>
-              <div class="item-btns">
-                <a class="item-btn" href="https://dribbble.com/shots/3979326-Area-2071-Landing-Page" target="_blank">Based on this concept design</a>
-                <a class="item-btn" href="https://github.com/PolarisTLX/Area-2071-Challenge" target="_blank">Open sourced on GitHub</a>
-              </div>
-            </div>
-          </div>
-          <a href="https://polaristlx.github.io/Area-2071-Challenge/" target="_blank">
-            <img src="images/Area-2071.png" class="s-analytttics-img mobile-full-width">
-          </a>
-        </div>
-      </article>
-      <!-- <article class="item s-aw2016 last-item">
-        <div class="inner-item">
-          <div class="item-bg"></div>
-          <div class="item-main autowidth">
-            <h1 class="item-text"><strong>Anyway.FM</strong><br>2016 Year-End Report</h1>
-            <div class="item-desc">
-              <div class="item-tags">Web Design / Development</div>
-              <div class="item-btns">
-                <a class="item-btn" href="https://Anyway.FM/2016/?s=iconmoon" target="_blank">Launch site</a>
-              </div>
-            </div>
-          </div>
-          <img src="http://anw.red/iconmoon-2017/images/aw2016-bg.gif" class="s-aw2016-bg">
-          <img src="http://anw.red/iconmoon-2017/images/aw2016-leon.gif" class="s-aw2016-leon">
-          <img src="http://anw.red/iconmoon-2017/images/aw2016-logo.gif" class="s-aw2016-logo mobile-full-width">
-        </div>
-      </article> -->
-      <!-- <article class="item s-clover">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text"><strong>Clover Sans</strong><br>Typeface Design</h1>
-            <div class="item-desc">
-              <div class="item-btns">Coming soon...</div>
-            </div>
-          </div>
-          <img src="http://anw.red/iconmoon-2017/images/clover-sans.jpg" class="item-bg clover-img-0 mobile-full-width">
-          <img src="http://anw.red/iconmoon-2017/images/clover-sans-2.png" class="item-bg clover-img-1 mobile-full-width">
-          <img src="http://anw.red/iconmoon-2017/images/clover-sans-3.png" class="item-bg clover-img-2 mobile-full-width">
-        </div>
-      </article> -->
-      <header>
-        <section class="autowidth tagline">I Also Enjoy Writing,</section>
-        <section class="autowidth desc">and teaching, and video games.</section>
-        <section class="autowidth tagline">I'm passionate about clean tech,</section>
-        <section class="autowidth desc">especially electric, self-driving vehicles.</section>
-        <!-- <section class="autowidth tagline">And Recently I Hosted a Podcast,</section>
-        <section class="autowidth desc">with my best friend Leon Gao.</section> -->
-      </header>
-      <!-- <article class="item s-anyway">
-        <div class="inner-item">
-          <img src="http://anw.red/iconmoon-2017/images/anyway-1.png" class="s-anyway-img s-anyway-cube-1"> <img src="http://anw.red/iconmoon-2017/images/anyway-2.png" class="s-anyway-img s-anyway-cube-2"> <img src="http://anw.red/iconmoon-2017/images/anyway-3.png" class="s-anyway-img s-anyway-cube-3">
-          <div class="item-main autowidth">
-            <h1 class="item-text">Award-Winning Podcast<br><strong>Anyway.FM</strong></h1>
-            <div class="item-desc">
-              <div class="item-tags">
-                Leon Gao and I created Anyway.FM design podcast in late 2015, we were so lucky to receive 'Best of 2015' award from Apple iTunes after just 5 episodes.
-              </div>
-              <div class="item-btns">
-                <a class="item-btn" href="https://Anyway.FM/?s=iconmoon" target="_blank">Launch site</a>
-                <a class="item-btn"
-                   href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200" target="_blank">Subscribe on iTunes Podcasts</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article> -->
-      <article class="item half half-l s-iconmoon">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text">I write on <strong>Medium</strong></h1>
-            <div class="item-desc">
-              <div class="item-btns">
-                <a class="item-btn" href="https://medium.com/@james.kyle.lemon/latest" target="_blank">Read my latest posts</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="item half half-r s-post last-item">
-        <div class="inner-item">
-          <div class="item-main autowidth">
-            <h1 class="item-text"><strong>Open Source</strong> Contributions</h1>
-            <div class="item-desc">
-              <div class="item-btns">
-                <a class="item-btn" href="https://github.com/jklemon17/open-source-contributions/blob/master/pull-requests.md" target="_blank">View on GitHub</a>
-              </div>
-            </div>
-          </div>
-          <a href="https://www.theodinproject.com/" target="_blank">
-            <img src="images/odin-logo.svg" class="odin-img">
-          </a>
-          <a href="https://www.freecodecamp.org/" target="_blank">
-            <img src="images/freecodecamp_logo.svg" class="fcc-img">
-          </a>
-        </div>
-      </article>
+        </article>
+      </section>
+      <!-- END OF WORKS/PROJECTS SECTION -->
       <article class="item about about-1" id="about">
         <div class="inner-item">
           <div class="item-main autowidth">
