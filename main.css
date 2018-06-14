@@ -458,11 +458,11 @@ main img {
 }
 
 .s-analytttics h1 {
-  color: #bbb
+  color: #dcc
 }
 
 .s-analytttics .item-btn, .s-analytttics .item-tags {
-  color: #666
+  color: #fff
 }
 
 .s-analytttics-img {
@@ -643,12 +643,19 @@ main img {
 }
 
 .s-post .inner-item {
-  background: #2f374a /*url(images/post.jpg)*/ no-repeat;
-  background-size: cover
+  background: #30c553
 }
 
 .s-post h1 {
-  color: #333
+  color: #fff
+}
+
+.s-post .item-btn {
+  color: #f6f8fa
+}
+
+.s-post .autowidth {
+  max-width: 80%;
 }
 
 .smoke .inner-item {
@@ -728,8 +735,7 @@ main img {
 }
 
 .s-iconmoon .inner-item {
-  background: #2f374a /*url(images/iconmoon-bg-2.jpg)*/ no-repeat;
-  background-size: cover
+  background: #000
 }
 
 .s-iconmoon .item-bg {
@@ -740,7 +746,11 @@ main img {
 }
 
 .s-iconmoon h1 {
-  color: #00c1d3
+  color: #00ff00
+}
+
+.s-iconmoon h1 strong{
+  font-family: serif;
 }
 
 .s-iconmoon .item-desc {
@@ -813,6 +823,15 @@ main img {
 .about .item-desc a:hover {
   background: rgba(0, 0, 0, .85);
   color: #fff
+}
+
+.odin-img {
+  margin-left: 50%;
+  margin-right: 5%;
+}
+
+.fcc-img {
+  width: 25%;
 }
 
 footer {
@@ -960,4 +979,14 @@ footer {
   .about-4 .item-main {
     padding: 2rem 0 3rem
   }
+
+  .odin-img {
+    margin: auto;
+  }
+
+  .fcc-img {
+    margin-left: 3%;
+    width: 25%;
+  }
+
 }
