@@ -622,6 +622,26 @@ main img {
   left: 50%
 }
 
+.clonebook .inner-item {
+  background: rgb(178, 66, 104);
+}
+
+.clonebook-img {
+  position: absolute;
+  top: 5%;
+  height: 90%;
+  right: 5%;
+  z-index: 10;
+}
+
+.clonebook h1 {
+  color: rgb(30, 30, 30);
+}
+
+.clonebook .item-btn, .clonebook .item-tags {
+  color: rgb(60, 60, 60);
+}
+
 .s-pre .inner-item {
   background: #ece9e9
 }
