@@ -622,12 +622,16 @@ main img {
   left: 50%
 }
 
+/* CLONEBOOK BANNER */
 .clonebook .inner-item {
   background: rgb(178, 66, 104);
 }
+.clonebook .item-main {
+  /* float: left; */
+}
 
 .clonebook-img {
-  position: absolute;
+  /* position: absolute; */
   top: 5%;
   height: 90%;
   right: 5%;
@@ -641,6 +645,34 @@ main img {
 .clonebook .item-btn, .clonebook .item-tags {
   color: rgb(60, 60, 60);
 }
+.display-and-arrows {
+  /* display: inline; */
+  position: relative;
+  float: right;
+  height: 100%;
+  top: -57%;
+  right: 0;
+}
+.previous-arrow {
+  display: inline;
+  position: relative;
+  height: 15%;
+  top: -40%;
+}
+.display-and-arrows img {
+  /* display: inline; */
+
+}
+.next-arrow {
+  display: inline;
+  position: relative;
+  height: 15%;
+  top: -40%;
+}
+.previous-arrow:hover, .next-arrow:hover {
+  filter:invert(100%);
+}
+/* END CLONEBOOK BANNER */
 
 .s-pre .inner-item {
   background: #ece9e9
