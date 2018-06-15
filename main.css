@@ -651,24 +651,20 @@ main img {
   float: right;
   height: 100%;
   top: -57%;
-  right: 0;
+  right: 15px;
+
 }
-.previous-arrow {
+.previous-arrow, .next-arrow {
   display: inline;
   position: relative;
-  height: 15%;
-  top: -40%;
+  height: 50px;
+  top: -50%;
 }
 .display-and-arrows img {
   /* display: inline; */
 
 }
-.next-arrow {
-  display: inline;
-  position: relative;
-  height: 15%;
-  top: -40%;
-}
+
 .previous-arrow:hover, .next-arrow:hover {
   filter:invert(100%);
 }
@@ -900,6 +896,16 @@ footer {
   text-align: center
 }
 
+.up-arrow {
+  height: 50px;
+  float: right;
+  margin-right: 5vw;
+}
+
+.up-arrow:hover {
+  filter: invert(70%);
+}
+
 @media screen and (max-width:1200px) {
   .inner-item {
     height: 25rem
@@ -983,6 +989,22 @@ footer {
     width: auto;
     max-width: 90%
   }
+
+  .display-and-arrows {
+    right: 0;
+  }
+
+  .clonebook-img {
+    max-width: 70%;
+    margin-bottom: 10px;
+    position: static;
+    height: auto
+  }
+
+  .next-arrow, .previous-arrow {
+    transform: translateY(-30vh);
+  }
+
   .smoke-img, .s-clover .item-bg {
     max-width: 100%;
     position: static;
