@@ -1,2 +1,2 @@
-# professional-portfolio
-Copying and personalizing a project portfolio page
+# Professional Portfolio
+This is my web developer portfolio. You can view it at kylelemon.com.
