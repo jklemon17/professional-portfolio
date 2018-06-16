@@ -1003,7 +1003,8 @@ footer {
   }
 
   .next-arrow, .previous-arrow {
-    transform: translateY(-30vh);
+    transform: translateY(-30vw);
+    height: 35px;
   }
 
   .smoke-img, .s-clover .item-bg {
