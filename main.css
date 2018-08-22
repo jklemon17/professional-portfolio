@@ -628,6 +628,25 @@ main img {
   filter: invert(100%)
 }
 
+.library .inner-item {
+  background: #FF8400
+}
+
+.library-img {
+  top: 5%;
+  height: 90%;
+  right: 5%;
+  z-index: 10
+}
+
+.library h1 {
+  color: #1e1e1e
+}
+
+.library .item-btn, .library .item-tags {
+  color: #3c3c3c
+}
+
 .s-pre .inner-item {
   background: #ece9e9
 }
@@ -819,13 +838,14 @@ main img {
 }
 
 .odin-img {
-  margin-left: 50%;
-  margin-right: 5%
+  margin: auto;
+  margin-left: 20%;
 }
-
 .fcc-img {
-  width: 25%;
-  /* margin-bottom: 50% */
+  /* margin-left: 3%; */
+  transform: translate(50px,-25px);
+  /* margin-top: -50%; */
+  width: 30%;
 }
 
 footer {
@@ -997,11 +1017,17 @@ footer {
     padding: 2rem 0 3rem
   }
   .odin-img {
-    margin: auto
+    /* position: relative;
+    right: 400px;*/
+    transform: translateY(-10px);
+    margin: auto;
+    /* margin-left: -40%; */
   }
   .fcc-img {
     margin-left: 3%;
-    width: 25%
+    transform: translateY(-35px);
+    /* margin-top: -50%; */
+    width: 30%;
   }
   .testimonial-img {
     display: none;
@@ -1022,5 +1048,39 @@ footer {
   .s-name .item-text {
     font-size: 1rem;
     font-weight: 400
+  }
+}
+
+.dev-logos-div {
+   margin-top: 20px;
+   margin-bottom: -75px;
+ }
+
+
+/* Development Technology Logos */
+@media only screen and (max-width: 486px) {
+  .dev-logos-div {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .dev-logos {
+    height: 30px;
+  }
+  .dev-logos-css3 {
+    height: 37px;
+  }
+  .dev-logos-git {
+    height: 37px;
+    transform: translateY(3px) !important;
+  }
+  .dev-logos-react {
+    height: 37px;
+    transform: translateY(3px) !important;
+    margin-right: -5px;
+  }
+  .dev-logos-node {
+    height: 30px;
+    margin-left: -5px !important;
+    margin-right: 0px !important;
   }
 }
