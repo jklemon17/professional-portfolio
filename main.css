@@ -1056,8 +1056,6 @@ footer {
    margin-bottom: -75px;
  }
 
-
-/* Development Technology Logos */
 @media only screen and (max-width: 486px) {
   .dev-logos-div {
     margin-top: -10px;
@@ -1082,5 +1080,9 @@ footer {
     height: 30px;
     margin-left: -5px !important;
     margin-right: 0px !important;
+  }
+  .dev-logos-rails {
+    height: 37px;
+    transform: translateY(3px) !important;
   }
 }
