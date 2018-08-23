@@ -1085,4 +1085,8 @@ footer {
     height: 37px;
     transform: translateY(3px) !important;
   }
+  .dev-logos-webpack {
+    height: 37px;
+    transform: translateY(4px) !important;
+  }
 }
