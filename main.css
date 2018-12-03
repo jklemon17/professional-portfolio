@@ -692,6 +692,28 @@ main img {
   color: #9e9d99
 }
 
+.whiz .inner-item {
+  background: #0ee2aa
+}
+
+.whiz-img {
+  border: 8px solid #657e8c;
+  border-radius: 5px;
+  position: absolute;
+  top: 16%;
+  width: 50%;
+  right: 3%;
+  z-index: 10
+}
+
+.whiz h1 {
+  color: #42565e
+}
+
+.whiz .item-btn, .whiz .item-tags {
+  color: #42565e
+}
+
 .s-post .inner-item {
   background: #30c553
 }
